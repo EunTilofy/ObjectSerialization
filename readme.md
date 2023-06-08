@@ -4,7 +4,7 @@
 
 该项目为本人 OOP 的 Final Project。
 
-在本项目中，本人实现了对不同对象的二进制序列化和 XML 格式序列化（调用 tinyxml2 库）。
+在本项目中，本人实现了对不同对象的二进制序列化和 XML 格式序列化（调用 [tinyxml2](https://github.com/leethomason/tinyxml2) 库）。
 
 序列化支持的对象包括：
 
@@ -103,7 +103,7 @@ g++ main_test.cpp include/tinyxml2.cpp -o main --std=c++20
 测试类型包括：
 
 ```c++
-	// std::is_arithmetic
+    // std::is_arithmetic
     int xml_a1, _a1, a1 = 256;
     long long xml_a2, _a2, a2 = 256256256256256LL;
     double xml_a3, _a3, a3 = 0.654321f;
